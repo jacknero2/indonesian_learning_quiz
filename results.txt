@@ -1,16 +1,1 @@
-	Length of quiz: 13 questions
-	Score: 0/13
-	Review words:
-		sebagai : as
-		saya : I
-		nya : his
-		bahwa : that
-		dia : he
-		adalah : was
-		untuk : for
-		pada : on
-		adalah : are
-		dengan : with
-		mereka : they
-		menjadi : be
-		di : at
+
