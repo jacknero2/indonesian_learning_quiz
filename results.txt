@@ -1,0 +1,27 @@
+
+Results
+	Length of quiz: 5
+	Score: 3/5
+	Review words:
+		sebagai : as
+		bahwa : that
+
+Results
+	Length of quiz: 5
+	Score: 0/5
+	Review words:
+		sebagai : as
+		saya : I
+		nya : his
+		bahwa : that
+		dia : he
+
+Results
+	Length of quiz: 5
+	Score: 0/5
+	Review words:
+		sebagai : as
+		saya : I
+		nya : his
+		bahwa : that
+		dia : he

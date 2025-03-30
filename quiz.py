@@ -118,7 +118,7 @@ def open_audio(audio: bool, audio_ai: bool, word: str) -> None:
     if audio_ai:
         webbrowser.open(url2)
 
-def quiz(ordered=False, save=False, target=False, audio=False, audio_ai=False, mnemonic=False, cycles = 1, length = 5) -> None:
+def quiz(ordered=False, save=False, target=False, audio=False, audio_ai=False, mnemonic=False, cycles=1, length = 5) -> None:
     w = 0
 
     while w < cycles:
@@ -161,6 +161,7 @@ def main(arguments=sys.argv[1:], stream=sys.stdin) -> None:
     audio = False
     audio_ai = False
     mnemonic = False
+    cycles = 1
     keyword = ""
 
     while arguments:
