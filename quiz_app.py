@@ -290,7 +290,7 @@ class QuizApp(tk.Tk):
         tk.Checkbutton(self.config_frame, text="Add Mnemonic", variable=self.mnemonic_var,
                        bg="light blue", fg="black").pack(anchor="w")
 
-        tk.Label(self.config_frame, text="Quiz Length (like '-l'):", bg="light blue", fg="black")\
+        tk.Label(self.config_frame, text="Quiz Length:", bg="light blue", fg="black")\
             .pack(anchor="w", pady=(10,0))
         self.length_var = tk.IntVar(value=self.length)
         tk.Entry(self.config_frame, textvariable=self.length_var, width=5, bg="white", fg="black")\
@@ -302,7 +302,7 @@ class QuizApp(tk.Tk):
         tk.Entry(self.config_frame, textvariable=self.cycles_var, width=5, bg="white", fg="black")\
             .pack(anchor="w", pady=(0,10))
 
-        tk.Label(self.config_frame, text="Keyword to search (like '-f'):", bg="light blue", fg="black")\
+        tk.Label(self.config_frame, text="Keyword to search:", bg="light blue", fg="black")\
             .pack(anchor="w")
         self.keyword_var = tk.StringVar(value=self.keyword)
         tk.Entry(self.config_frame, textvariable=self.keyword_var, width=20, bg="white", fg="black")\
